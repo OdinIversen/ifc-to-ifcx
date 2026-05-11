@@ -1,5 +1,5 @@
 {
-  "name": "ifc-step-to-json",
+  "name": "ifc-to-ifcx",
   "version": "0.0.0",
   "private": true,
   "type": "module",

@@ -8,7 +8,7 @@ import { runOrchestration } from "claude-code-kit";
 declare const process: { argv: string[] };
 
 const config = {
-  imageName: "sandcastle:ifc-step-to-json",
+  imageName: "sandcastle:ifc-to-ifcx",
   dockerfilePath: ".sandcastle/Dockerfile",
   // Files whose mtime triggers an image rebuild when newer than the image.
   // Add pyproject.toml, package.json, etc. once the project has them and
