@@ -1,0 +1,10 @@
+{
+  "name": "ifc-step-to-json",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "claude-code-kit": "github:OdinIversen/claude-code-kit",
+    "@ai-hero/sandcastle": "^0.5.7"
+  }
+}

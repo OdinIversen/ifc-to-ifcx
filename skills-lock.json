@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "init-repo": {
+      "source": "OdinIversen/claude-code-kit",
+      "sourceType": "github",
+      "skillPath": "skills/init-repo/SKILL.md",
+      "computedHash": "f0138ccc91bf7049f3609c41c3e40a3f675947d70c9f64c2dd7e58c39cd5d7f4"
+    },
+    "paste-image": {
+      "source": "OdinIversen/claude-code-kit",
+      "sourceType": "github",
+      "skillPath": "skills/paste-image/SKILL.md",
+      "computedHash": "63ed0916c6db67b5925716d25d22af2df9ffd435acfdf783a926c32448931fb2"
+    }
+  }
+}
