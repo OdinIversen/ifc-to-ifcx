@@ -4,8 +4,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "claude-code-kit": "github:OdinIversen/claude-code-kit",
-    "@ai-hero/sandcastle": "^0.5.10"
+    "claude-code-kit": "github:OdinIversen/claude-code-kit"
   },
   "scripts": {
     "sandcastle": "tsx .sandcastle/main.mts"
