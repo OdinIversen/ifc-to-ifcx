@@ -1,8 +1,0 @@
-# Allowlist mode: deny everything, then permit only files the Dockerfile
-# COPYs. This is load-bearing safety — a future stray `COPY .sandcastle/.env`
-# or `COPY . /app` then needs two simultaneous mistakes to leak a secret,
-# not one. The orchestration loop verifies every COPY source has a matching
-# `!<path>` entry here before kicking off a build.
-*
-!.sandcastle/Dockerfile
-!node_modules/claude-code-kit/src/cc-rate-limit-shim

@@ -6,7 +6,5 @@
   "dependencies": {
     "claude-code-kit": "github:OdinIversen/claude-code-kit"
   },
-  "scripts": {
-    "sandcastle": "tsx .sandcastle/main.mts"
-  }
+  "scripts": {}
 }
