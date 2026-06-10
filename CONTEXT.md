@@ -3,12 +3,16 @@
 <!--
 Domain glossary and current-state explanation. This is what the
 `grill-with-docs` and `improve-codebase-architecture` skills read to
-anchor their analysis. Goals belong in GOALS.md, not here.
+anchor their analysis. Scope and decisions belong in docs/adr/, not here.
 
 Keep terms short and unambiguous. If a term means different things in
 different parts of the code, that itself is worth documenting here so
 agents (and future-you) don't conflate them.
 -->
+
+Domain glossary for ifc-to-ifcx, a Windows desktop tool that converts legacy
+IFC4 STEP files to IFC5/IFCX for a non-developer user (scope and decisions:
+`docs/adr/`).
 
 ## Domain glossary
 
